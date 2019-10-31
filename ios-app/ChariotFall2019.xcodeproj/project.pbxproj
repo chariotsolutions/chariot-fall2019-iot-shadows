@@ -1,0 +1,754 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3A6E9D5D9314F3E9B7CE4352 /* Pods_ChariotFall2019.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 537EB6E97F3E31BD430970DE /* Pods_ChariotFall2019.framework */; };
+		3ABB2CD167D2D9181CBCA324 /* Pods_ChariotFall2019Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42698960478925E386D1A4FA /* Pods_ChariotFall2019Tests.framework */; };
+		562218B7AAFE8997B150B25B /* Pods_ChariotFall2019UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 569A227BE1AC3056031DF292 /* Pods_ChariotFall2019UITests.framework */; };
+		5B3DD7FA23182B2200842789 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3DD7F923182B2200842789 /* AppDelegate.swift */; };
+		5B3DD7FC23182B2200842789 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3DD7FB23182B2200842789 /* ViewController.swift */; };
+		5B3DD7FF23182B2200842789 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B3DD7FD23182B2200842789 /* Main.storyboard */; };
+		5B3DD80123182B2300842789 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B3DD80023182B2300842789 /* Assets.xcassets */; };
+		5B3DD80423182B2300842789 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B3DD80223182B2300842789 /* LaunchScreen.storyboard */; };
+		5B3DD80F23182B2400842789 /* ChariotFall2019Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3DD80E23182B2400842789 /* ChariotFall2019Tests.swift */; };
+		5B3DD81A23182B2400842789 /* ChariotFall2019UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3DD81923182B2400842789 /* ChariotFall2019UITests.swift */; };
+		5B3DD82823184ADF00842789 /* awsconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 5B3DD82723184ADF00842789 /* awsconfiguration.json */; };
+		5BC61393232937A800654DE5 /* IoTDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC61392232937A800654DE5 /* IoTDataManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5B3DD80B23182B2400842789 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5B3DD7EE23182B2200842789 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B3DD7F523182B2200842789;
+			remoteInfo = ChariotFall2019;
+		};
+		5B3DD81623182B2400842789 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5B3DD7EE23182B2200842789 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B3DD7F523182B2200842789;
+			remoteInfo = ChariotFall2019;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		013148AB823229E800A27889 /* Pods-ChariotFall2019Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChariotFall2019Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ChariotFall2019Tests/Pods-ChariotFall2019Tests.release.xcconfig"; sourceTree = "<group>"; };
+		116851FF1194961D26F7416D /* Pods-ChariotFall2019UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChariotFall2019UITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ChariotFall2019UITests/Pods-ChariotFall2019UITests.release.xcconfig"; sourceTree = "<group>"; };
+		350559668BA60635EE0B443E /* Pods-ChariotFall2019.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChariotFall2019.release.xcconfig"; path = "Pods/Target Support Files/Pods-ChariotFall2019/Pods-ChariotFall2019.release.xcconfig"; sourceTree = "<group>"; };
+		42698960478925E386D1A4FA /* Pods_ChariotFall2019Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChariotFall2019Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		537EB6E97F3E31BD430970DE /* Pods_ChariotFall2019.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChariotFall2019.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		569A227BE1AC3056031DF292 /* Pods_ChariotFall2019UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChariotFall2019UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B3DD7F623182B2200842789 /* ChariotFall2019.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChariotFall2019.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B3DD7F923182B2200842789 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5B3DD7FB23182B2200842789 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5B3DD7FE23182B2200842789 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5B3DD80023182B2300842789 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5B3DD80323182B2300842789 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5B3DD80523182B2300842789 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B3DD80A23182B2400842789 /* ChariotFall2019Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChariotFall2019Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B3DD80E23182B2400842789 /* ChariotFall2019Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChariotFall2019Tests.swift; sourceTree = "<group>"; };
+		5B3DD81023182B2400842789 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B3DD81523182B2400842789 /* ChariotFall2019UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChariotFall2019UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B3DD81923182B2400842789 /* ChariotFall2019UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChariotFall2019UITests.swift; sourceTree = "<group>"; };
+		5B3DD81B23182B2400842789 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B3DD82723184ADF00842789 /* awsconfiguration.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = awsconfiguration.json; sourceTree = SOURCE_ROOT; };
+		5BC61392232937A800654DE5 /* IoTDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IoTDataManager.swift; sourceTree = "<group>"; };
+		8C44CE5FA6077A4DF5F2C9E2 /* Pods-ChariotFall2019.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChariotFall2019.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ChariotFall2019/Pods-ChariotFall2019.debug.xcconfig"; sourceTree = "<group>"; };
+		95243EBA497ACEEE259CCCDA /* Pods-ChariotFall2019Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChariotFall2019Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ChariotFall2019Tests/Pods-ChariotFall2019Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		BA87B2540B62C2934059342D /* Pods-ChariotFall2019UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChariotFall2019UITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ChariotFall2019UITests/Pods-ChariotFall2019UITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5B3DD7F323182B2200842789 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A6E9D5D9314F3E9B7CE4352 /* Pods_ChariotFall2019.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B3DD80723182B2400842789 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3ABB2CD167D2D9181CBCA324 /* Pods_ChariotFall2019Tests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B3DD81223182B2400842789 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				562218B7AAFE8997B150B25B /* Pods_ChariotFall2019UITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5B3DD7ED23182B2200842789 = {
+			isa = PBXGroup;
+			children = (
+				5B3DD7F823182B2200842789 /* ChariotFall2019 */,
+				5B3DD80D23182B2400842789 /* ChariotFall2019Tests */,
+				5B3DD81823182B2400842789 /* ChariotFall2019UITests */,
+				5B3DD7F723182B2200842789 /* Products */,
+				9A84F4B01A929A4ADDA74F57 /* Pods */,
+				792ED42120AE1F80F0B56AF1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5B3DD7F723182B2200842789 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5B3DD7F623182B2200842789 /* ChariotFall2019.app */,
+				5B3DD80A23182B2400842789 /* ChariotFall2019Tests.xctest */,
+				5B3DD81523182B2400842789 /* ChariotFall2019UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5B3DD7F823182B2200842789 /* ChariotFall2019 */ = {
+			isa = PBXGroup;
+			children = (
+				5B3DD82723184ADF00842789 /* awsconfiguration.json */,
+				5B3DD7F923182B2200842789 /* AppDelegate.swift */,
+				5B3DD7FB23182B2200842789 /* ViewController.swift */,
+				5BC61392232937A800654DE5 /* IoTDataManager.swift */,
+				5B3DD7FD23182B2200842789 /* Main.storyboard */,
+				5B3DD80023182B2300842789 /* Assets.xcassets */,
+				5B3DD80223182B2300842789 /* LaunchScreen.storyboard */,
+				5B3DD80523182B2300842789 /* Info.plist */,
+			);
+			path = ChariotFall2019;
+			sourceTree = "<group>";
+		};
+		5B3DD80D23182B2400842789 /* ChariotFall2019Tests */ = {
+			isa = PBXGroup;
+			children = (
+				5B3DD80E23182B2400842789 /* ChariotFall2019Tests.swift */,
+				5B3DD81023182B2400842789 /* Info.plist */,
+			);
+			path = ChariotFall2019Tests;
+			sourceTree = "<group>";
+		};
+		5B3DD81823182B2400842789 /* ChariotFall2019UITests */ = {
+			isa = PBXGroup;
+			children = (
+				5B3DD81923182B2400842789 /* ChariotFall2019UITests.swift */,
+				5B3DD81B23182B2400842789 /* Info.plist */,
+			);
+			path = ChariotFall2019UITests;
+			sourceTree = "<group>";
+		};
+		792ED42120AE1F80F0B56AF1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				537EB6E97F3E31BD430970DE /* Pods_ChariotFall2019.framework */,
+				42698960478925E386D1A4FA /* Pods_ChariotFall2019Tests.framework */,
+				569A227BE1AC3056031DF292 /* Pods_ChariotFall2019UITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9A84F4B01A929A4ADDA74F57 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8C44CE5FA6077A4DF5F2C9E2 /* Pods-ChariotFall2019.debug.xcconfig */,
+				350559668BA60635EE0B443E /* Pods-ChariotFall2019.release.xcconfig */,
+				95243EBA497ACEEE259CCCDA /* Pods-ChariotFall2019Tests.debug.xcconfig */,
+				013148AB823229E800A27889 /* Pods-ChariotFall2019Tests.release.xcconfig */,
+				BA87B2540B62C2934059342D /* Pods-ChariotFall2019UITests.debug.xcconfig */,
+				116851FF1194961D26F7416D /* Pods-ChariotFall2019UITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5B3DD7F523182B2200842789 /* ChariotFall2019 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B3DD81E23182B2400842789 /* Build configuration list for PBXNativeTarget "ChariotFall2019" */;
+			buildPhases = (
+				BD1B548EAD32E718BF974543 /* [CP] Check Pods Manifest.lock */,
+				5B3DD7F223182B2200842789 /* Sources */,
+				5B3DD7F323182B2200842789 /* Frameworks */,
+				5B3DD7F423182B2200842789 /* Resources */,
+				6BAC970941A99F7481644288 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChariotFall2019;
+			productName = ChariotFall2019;
+			productReference = 5B3DD7F623182B2200842789 /* ChariotFall2019.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5B3DD80923182B2400842789 /* ChariotFall2019Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B3DD82123182B2400842789 /* Build configuration list for PBXNativeTarget "ChariotFall2019Tests" */;
+			buildPhases = (
+				B1937FCA4EA0EFFF60E061DA /* [CP] Check Pods Manifest.lock */,
+				5B3DD80623182B2400842789 /* Sources */,
+				5B3DD80723182B2400842789 /* Frameworks */,
+				5B3DD80823182B2400842789 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5B3DD80C23182B2400842789 /* PBXTargetDependency */,
+			);
+			name = ChariotFall2019Tests;
+			productName = ChariotFall2019Tests;
+			productReference = 5B3DD80A23182B2400842789 /* ChariotFall2019Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5B3DD81423182B2400842789 /* ChariotFall2019UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B3DD82423182B2400842789 /* Build configuration list for PBXNativeTarget "ChariotFall2019UITests" */;
+			buildPhases = (
+				8EF14E4BBC9576F50790B015 /* [CP] Check Pods Manifest.lock */,
+				5B3DD81123182B2400842789 /* Sources */,
+				5B3DD81223182B2400842789 /* Frameworks */,
+				5B3DD81323182B2400842789 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5B3DD81723182B2400842789 /* PBXTargetDependency */,
+			);
+			name = ChariotFall2019UITests;
+			productName = ChariotFall2019UITests;
+			productReference = 5B3DD81523182B2400842789 /* ChariotFall2019UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5B3DD7EE23182B2200842789 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Steven Smith";
+				TargetAttributes = {
+					5B3DD7F523182B2200842789 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					5B3DD80923182B2400842789 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 5B3DD7F523182B2200842789;
+					};
+					5B3DD81423182B2400842789 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 5B3DD7F523182B2200842789;
+					};
+				};
+			};
+			buildConfigurationList = 5B3DD7F123182B2200842789 /* Build configuration list for PBXProject "ChariotFall2019" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5B3DD7ED23182B2200842789;
+			productRefGroup = 5B3DD7F723182B2200842789 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5B3DD7F523182B2200842789 /* ChariotFall2019 */,
+				5B3DD80923182B2400842789 /* ChariotFall2019Tests */,
+				5B3DD81423182B2400842789 /* ChariotFall2019UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5B3DD7F423182B2200842789 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B3DD82823184ADF00842789 /* awsconfiguration.json in Resources */,
+				5B3DD80423182B2300842789 /* LaunchScreen.storyboard in Resources */,
+				5B3DD80123182B2300842789 /* Assets.xcassets in Resources */,
+				5B3DD7FF23182B2200842789 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B3DD80823182B2400842789 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B3DD81323182B2400842789 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6BAC970941A99F7481644288 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ChariotFall2019/Pods-ChariotFall2019-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AWSAuthCore/AWSAuthCore.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSAuthUI/AWSAuthUI.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSCognitoIdentityProvider/AWSCognitoIdentityProvider.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSCognitoIdentityProviderASF/AWSCognitoIdentityProviderASF.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSCore/AWSCore.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSIoT/AWSIoT.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSMobileClient/AWSMobileClient.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSUserPoolsSignIn/AWSUserPoolsSignIn.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSAuthCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSAuthUI.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCognitoIdentityProvider.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCognitoIdentityProviderASF.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSIoT.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSMobileClient.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSUserPoolsSignIn.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ChariotFall2019/Pods-ChariotFall2019-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8EF14E4BBC9576F50790B015 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ChariotFall2019UITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B1937FCA4EA0EFFF60E061DA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ChariotFall2019Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD1B548EAD32E718BF974543 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ChariotFall2019-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5B3DD7F223182B2200842789 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B3DD7FC23182B2200842789 /* ViewController.swift in Sources */,
+				5B3DD7FA23182B2200842789 /* AppDelegate.swift in Sources */,
+				5BC61393232937A800654DE5 /* IoTDataManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B3DD80623182B2400842789 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B3DD80F23182B2400842789 /* ChariotFall2019Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B3DD81123182B2400842789 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B3DD81A23182B2400842789 /* ChariotFall2019UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5B3DD80C23182B2400842789 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5B3DD7F523182B2200842789 /* ChariotFall2019 */;
+			targetProxy = 5B3DD80B23182B2400842789 /* PBXContainerItemProxy */;
+		};
+		5B3DD81723182B2400842789 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5B3DD7F523182B2200842789 /* ChariotFall2019 */;
+			targetProxy = 5B3DD81623182B2400842789 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5B3DD7FD23182B2200842789 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B3DD7FE23182B2200842789 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5B3DD80223182B2300842789 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B3DD80323182B2300842789 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5B3DD81C23182B2400842789 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5B3DD81D23182B2400842789 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5B3DD81F23182B2400842789 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C44CE5FA6077A4DF5F2C9E2 /* Pods-ChariotFall2019.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4ZRZL4M7J7;
+				INFOPLIST_FILE = ChariotFall2019/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chariotsolutions.ChariotFall2019;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5B3DD82023182B2400842789 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 350559668BA60635EE0B443E /* Pods-ChariotFall2019.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4ZRZL4M7J7;
+				INFOPLIST_FILE = ChariotFall2019/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chariotsolutions.ChariotFall2019;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5B3DD82223182B2400842789 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95243EBA497ACEEE259CCCDA /* Pods-ChariotFall2019Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4ZRZL4M7J7;
+				INFOPLIST_FILE = ChariotFall2019Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chariotsolutions.ChariotFall2019Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChariotFall2019.app/ChariotFall2019";
+			};
+			name = Debug;
+		};
+		5B3DD82323182B2400842789 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 013148AB823229E800A27889 /* Pods-ChariotFall2019Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4ZRZL4M7J7;
+				INFOPLIST_FILE = ChariotFall2019Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chariotsolutions.ChariotFall2019Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChariotFall2019.app/ChariotFall2019";
+			};
+			name = Release;
+		};
+		5B3DD82523182B2400842789 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA87B2540B62C2934059342D /* Pods-ChariotFall2019UITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4ZRZL4M7J7;
+				INFOPLIST_FILE = ChariotFall2019UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chariotsolutions.ChariotFall2019UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ChariotFall2019;
+			};
+			name = Debug;
+		};
+		5B3DD82623182B2400842789 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 116851FF1194961D26F7416D /* Pods-ChariotFall2019UITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4ZRZL4M7J7;
+				INFOPLIST_FILE = ChariotFall2019UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chariotsolutions.ChariotFall2019UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ChariotFall2019;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5B3DD7F123182B2200842789 /* Build configuration list for PBXProject "ChariotFall2019" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B3DD81C23182B2400842789 /* Debug */,
+				5B3DD81D23182B2400842789 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B3DD81E23182B2400842789 /* Build configuration list for PBXNativeTarget "ChariotFall2019" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B3DD81F23182B2400842789 /* Debug */,
+				5B3DD82023182B2400842789 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B3DD82123182B2400842789 /* Build configuration list for PBXNativeTarget "ChariotFall2019Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B3DD82223182B2400842789 /* Debug */,
+				5B3DD82323182B2400842789 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B3DD82423182B2400842789 /* Build configuration list for PBXNativeTarget "ChariotFall2019UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B3DD82523182B2400842789 /* Debug */,
+				5B3DD82623182B2400842789 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5B3DD7EE23182B2200842789 /* Project object */;
+}
