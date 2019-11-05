@@ -11,3 +11,4 @@ Requirements:
     * when attempting to attach the IoT policy to the Cognito Identity, the identity can also be found using the amazon console and browsing identities (after creating your user account via the app)
     * see the sample-iot-policy.txt document for the IoT policy definition to use
     * also need to add the AWSIoTDataAccess policy to the IAM Authorized role
+* To connect the arduino to AWS, see the information here: https://github.com/chariotsolutions/aws-iot-workshop
