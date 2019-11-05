@@ -1,4 +1,4 @@
-# aws-mobile-iot
+# Chariot Fall 2019 IoT on AWS Event
 Code needed to demonstrate AWS device shadows and mobile app client to interact with a device
 
 Requirements:
